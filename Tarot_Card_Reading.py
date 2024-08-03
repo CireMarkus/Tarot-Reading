@@ -1,4 +1,3 @@
-from random import randint
 from random import shuffle
 import csv
 
@@ -11,9 +10,9 @@ with open('TarotCards.csv', 'r') as csvfile:
         deck.append(row)
 #shuffle the deck
 shuffle(deck)
- 
- #ask the user to enter 3 numbers between 1 
- # and the max length of the deck 
+
+#ask the user to enter 3 numbers between 1 
+# and the max length of the deck 
 numbers = ['first','second','third']
 user_num = []
 
